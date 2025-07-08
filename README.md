@@ -16,7 +16,10 @@ This image shows the items of the bookstore after books have been added.
 ### Shows the books after Removing 
 Removing all old books.
 
-![Shows the books after adding](Images/After%20deleting%20the%20old%20books%20from%20the%20store%20.png)
+![Shows the books after Removing](Images/After%20deleting%20the%20old%20books%20from%20the%20store%20.png)
 
 ---
 
+
+### The System UML
+![system UML](Images/book_store_UML.png)
