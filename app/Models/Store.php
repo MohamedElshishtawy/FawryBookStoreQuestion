@@ -113,7 +113,6 @@ class Store {
                     }
 
                     new EmailService($book, $email, $quantity);
-                    echo "Sending email <br>";
                 }
 
                 if ($book instanceof Shippable) {
@@ -121,7 +120,6 @@ class Store {
                         throw new Exception("Address is required ");
                     }
                     new ShippingService($book, $quantity, $address);
-                    echo 'shipping <br>';
                 }
                     
 
